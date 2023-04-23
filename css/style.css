@@ -1,6 +1,3 @@
-/*tipografias*/
-/*locales*/
-
 @font-face {
     font-family:"extemporal";
     src: url("../assets/fonts/extemporal-demo/ExtemporalDemoRegular.ttf");
@@ -8,32 +5,60 @@
 /*externas*/
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Open+Sans:wght@300&display=swap');
 
-
-
 /*propiedades de css defecto para todo*/
 *{
     margin: 0px;
     padding: 0px;
+
 }
 
-/*clase para el texto del logo*/
-
 .header{
-    padding-top:60px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    padding-top:20px;
+    background-color:#e6e9e9;
+}
+
+.main{
+    background-color:#cbcece;
+    border-radius: 2px;
+}
+
+.search{
+    padding: 5px;
+}
+.input-search{
+    margin: 5px;
+}
+
+
+.content-home{
+    padding: 5px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    justify-content: flex-end;
 }
 
 .text-logo{
-    font-family: "extemporal";
-    font-size: xx-large;
-    color: antiquewhite;
+    color:chocolate;
+    justify-content: start;
+}
+
+/*botones*/
+.button{
+    background-color:chocolate;
+    color: #e6e9e9;
+    margin: 5px;
 }
 
 /*clases para el nav*/
 .nav{
-    text-align: right;
+    justify-content: flex-end;
 }
 .nav ul{
     list-style-type: none;
@@ -49,159 +74,23 @@
 .nav ul li a{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: x-large;
-    color: bisque;
+    font-size: medium;
+    color: chocolate;
 }
-
-/*clases para el footter*/
+/*footer*/
 .logo-footer{
-    width: 60px;
+    width: 40px;
 }
 
 .footer{
     text-align: center;
-}
-
-/*clase para el back ground secion main pagina prinacipal*/
-
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.background-main{
-    background-image: url("../assets/images/background.jpeg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.div-home{
-    width: 75%;
-    height: 200px;
-    margin: 25px;
-    display: flex;
-    align-items: center;
-}
-.div-busqueda{
-    width: 90%;
-    height: 300px;
-    margin: 25px;
-    display: flex;
-    align-items: center;
-}
-
-
-.parrafo{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color: bisque;
-}
-
-.input-search{
-
-    width: 70%;
-}
-
-.button-search{
-    height: 35px;
-    width: 100px;
-}
-
-.div-main-other{
-    width: 80%;
-    height: 500px;
-    margin: 25px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+    padding: 5px;
 }
 
 .parrafo-footer{
     font-family: 'Open Sans', sans-serif;
-    font-size: x-large;
-    color: bisque;
+    font-size: medium;
+    color: chocolate;
 }
 
-/*class para cuadros de las recetas*/
-.cuadro-recetas{
-    width: 20%;
-    border: 1px #e6e9e9 solid;
-}
-
-
-
-.cuadro-recetas h3{
-    font-family: 'Open Sans', sans-serif;
-    font-size: x-large;
-    color: bisque;
-}
-
-.cuadro-recetas img{
-    width: 95%;
-    height: 200px;
-}
-
-.cuadro-recetas p{
-    font-family: 'Open Sans', sans-serif;
-    color: bisque;
-}
-
-/*class para cuadros de videos de galaría*/
-.cuadro-galeria{
-    width: 20%;
-    border: 1px #e6e9e9 solid;
-}
-
-.cuadro-galeria h3{
-    font-family: 'Open Sans', sans-serif;
-    font-size: x-large;
-    color: bisque;
-}
-
-.cuadro-galeria iframe{
-    width: 95%;
-    height: 200px;
-}
-
-/*class para cuadros de las recetas*/
-.cuadro-contacto{
-    width: 50%;
-    border: 1px #e6e9e9 solid;
-}
-.button-contact{
-    height: 35px;
-    width: 100px;
-}
-
-.input-contact{
-    height: 25px;
-    width: 70%;
-}
-
-/*class para cuadros para blog*/
-.cuadro-blog{
-    width: 90%;
-    border: 1px #e6e9e9 none;
-    font-family: 'Open Sans', sans-serif;
-    color: bisque;
-}
-
-.negrita{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.input-blog{
-    height: 25px;
-    width: 30%;
-}
-
-.card-body{
-    color: #222222;
-}
-.card-text{
-    color: #222222;
-}
 
