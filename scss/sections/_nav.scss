@@ -1,0 +1,20 @@
+/*clases sass para el nav*/
+.nav{
+  justify-content: flex-end;
+  ul{
+    list-style-type: none;
+    li{
+      list-style-type: none;
+      display: inline;
+      margin-left: 10px;
+      margin-right: 10px;
+      a{
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: medium;
+        color: chocolate;
+      }
+
+    }
+  }
+}
