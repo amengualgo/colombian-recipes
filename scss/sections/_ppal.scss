@@ -1,0 +1,55 @@
+/*propiedades de css defecto para todo*/
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.header{
+  padding-top:20px;
+  background-color:#e6e9e9;
+}
+
+.main{
+  background-color:#cbcece;
+  border-radius: 2px;
+}
+
+.search{
+  padding: 5px;
+}
+.input-search{
+  margin: 5px;
+}
+
+
+.content-home{
+  padding: 5px;
+}
+
+.center{
+  justify-content: center;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  justify-content: flex-end;
+}
+
+.text-logo{
+  color:$default-button-color;
+  justify-content: start;
+}
+
+/*botones*/
+.button{
+  background-color:$default-button-color;
+  color: #e6e9e9;
+  margin: 5px;
+}
+
+.negrita{
+  font-weight: bold;
+  font-size: 20px;
+}

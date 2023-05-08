@@ -6,79 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Open+Sans:wght@300&display=swap');
 
 $default-button-color :   chocolate;
-
-/*propiedades de css defecto para todo*/
-*{
-  margin: 0px;
-  padding: 0px;
-
-}
-
-.header{
-  padding-top:20px;
-  background-color:#e6e9e9;
-}
-
-.main{
-  background-color:#cbcece;
-  border-radius: 2px;
-}
-
-.search{
-  padding: 5px;
-}
-.input-search{
-  margin: 5px;
-}
-
-
-.content-home{
-  padding: 5px;
-}
-
-.center{
-  justify-content: center;
-}
-
-.logo{
-  height: 50px;
-  width: 50px;
-  justify-content: flex-end;
-}
-
-.text-logo{
-  color:$default-button-color;
-  justify-content: start;
-}
-
-/*botones*/
-.button{
-  background-color:$default-button-color;
-  color: #e6e9e9;
-  margin: 5px;
-}
-
 /*importar las secciones*/
 
 @import 'sections/nav';
-
-
-/*footer*/
-.logo-footer{
-  width: 40px;
-}
-.footer{
-  text-align: center;
-  padding: 5px;
-}
-
-.parrafo-footer{
-  font-family: 'Open Sans', sans-serif;
-  font-size: medium;
-  color: $default-button-color;
-}
-
-.image-recetas{
-  height: 300px;
-}
-
+@import 'sections/ppal';
+@import 'sections/footer';
